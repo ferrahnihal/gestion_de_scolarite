@@ -1,0 +1,74 @@
+body{
+font-family: Arial;
+background:#ffff;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+background:#F2F2F2;
+padding:25px;
+border-radius:18px;
+width:500px;
+text-align:center;
+}
+
+
+.logo{
+width:150px;
+margin-bottom:20px;
+filter: grayscale(100%) brightness(0);
+opacity:0.9;
+}
+.annees{
+margin-top:25px;
+color:black;
+text-align:center;
+font-size:1Opx;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:8px 0;
+border-radius:20px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#444;
+color:white;
+border:none;
+border-radius:20px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#222;
+}
+
+.role-btn{
+padding:6px 10px;
+margin:3px;
+border-radius:15px;
+border:1px solid #999;
+cursor:pointer;
+display:inline-block;
+font-size:13px;
+}
+
+.active{
+background:#444;
+color:white;
+}
+
+
+.error{
+color:red;
+margin-bottom:10px;
+}
